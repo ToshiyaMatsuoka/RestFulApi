@@ -1,4 +1,4 @@
-const reqUrl = "http://localhost:8888/chat_tool/weather/";
+const reqUrl = "http://localhost:8888/weather/";
 const request = new XMLHttpRequest();
 let txtPlaceId;
 let txtId;

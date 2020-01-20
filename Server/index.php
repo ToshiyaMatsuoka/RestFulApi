@@ -29,3 +29,4 @@ if($_SERVER['REQUEST_METHOD']=='PUT'){
 else {
 	eval('$instance->'.$_SERVER['REQUEST_METHOD'].'($id);');
 }
+?>
